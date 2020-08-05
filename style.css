@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  /* background-image: url("./assets//imgs//wave-textures-white-background-vector_53876-60286.jpg"); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.app-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.gallary {
+  max-width: 935px;
+  margin: 5rem auto;
+  justify-content: space-between;
+}
+
+.centered-row {
+  justify-content: center;
+}
+
+.centered-column {
+  align-items: center;
+}
+
+.img-container {
+  margin-top: 0.5rem;
+  max-width: 32%;
+  min-width: 32%;
+  height: 33%;
+  max-height: 300px;
+  flex: 1;
+}
